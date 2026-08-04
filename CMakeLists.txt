@@ -7,4 +7,5 @@ add_executable(gol)
 target_sources(gol
   PRIVATE
     src/main.cpp
+    src/grid.cpp
 )
