@@ -1,3 +1,0 @@
-/mnt/myworld/dev/cpp/game_of_life/build/CMakeFiles/gol.dir
-/mnt/myworld/dev/cpp/game_of_life/build/CMakeFiles/edit_cache.dir
-/mnt/myworld/dev/cpp/game_of_life/build/CMakeFiles/rebuild_cache.dir

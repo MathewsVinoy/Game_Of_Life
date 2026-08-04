@@ -1,1 +1,0 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/gol.dir/link.d CMakeFiles/gol.dir/src/main.cpp.o -o gol
