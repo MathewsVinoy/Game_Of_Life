@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/mnt/myworld/dev/cpp/game_of_life/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
