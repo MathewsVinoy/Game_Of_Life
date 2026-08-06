@@ -1,14 +1,13 @@
 #include <iostream>
 #include <cstdlib>
 #include <vector>
-#include <ctime>
 using namespace std;
 
 
 class Grids {
 public:
-    int width = 50;
-    int height = 50;
+    int width = 500;
+    int height = 500;
     vector<vector<int>> grid;
     vector<vector<int>> ngd;
     vector<int> dx = {-1, -1, -1, 0, 0, 1, 1, 1};
