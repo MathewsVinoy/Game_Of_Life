@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(raylib REQUIRED)
 include_directories(include)
-add_executable(gol src/main.cpp src/grid.cpp)
+add_executable(gol src/main.cpp src/grid.cpp src/lenia.cpp)
 
 target_link_libraries(gol
   PRIVATE

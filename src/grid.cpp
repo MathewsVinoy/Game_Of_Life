@@ -3,7 +3,7 @@
 #include "../include/Grids.hpp"
 using namespace std;
 
-Grids::Grids() : grid(height, vector<int>(width, 0)), ngd(height, vector<int>(width, 0)) {}
+Grids::Grids() : grid(height, vector<float>(width, 0)), ngd(height, vector<float>(width, 0)) {}
 
 int Grids::rules(int alive, int root) {
     if (root == 1) {
