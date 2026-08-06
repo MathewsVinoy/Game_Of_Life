@@ -1,4 +1,4 @@
-#include "grid.cpp"
+#include "../include/Grids.hpp"
 #include "raylib.h"
 
 int main() {

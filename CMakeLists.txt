@@ -4,13 +4,8 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(raylib REQUIRED)
-
-add_executable(gol src/main.cpp)
-
-target_sources(gol
-  PRIVATE
-    src/grid.cpp
-)
+include_directories(include)
+add_executable(gol src/main.cpp src/grid.cpp)
 
 target_link_libraries(gol
   PRIVATE
